@@ -47,7 +47,7 @@ To install the necessary dependencies, follow these steps:
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/house-price-prediction.git
+    git clone https://github.com/markhugo/Housing-Cost-Predictor.git
     ```
 2. Navigate into the project directory:
     ```bash
@@ -81,6 +81,8 @@ To install the necessary dependencies, follow these steps:
     model = pickle.load(open('best_model.pkl', 'rb'))
     prediction = model.predict(new_data)  # 'new_data' is a prepared data array
     ```
+    Note: There are some configurations that are still being worked out such as applying the same preprocessing techniques to the new data.
+          The pickled model expects the same dimensions for input data.
 
 ## Contributing
 
